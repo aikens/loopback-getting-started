@@ -1,0 +1,29 @@
+{
+  "name": "Location",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cellPhoneNo": {
+      "type": "string",
+      "required": true
+    },
+    "tags": {
+      "type": [
+        "object"
+      ]
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
