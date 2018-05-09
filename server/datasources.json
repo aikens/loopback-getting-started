@@ -2,15 +2,5 @@
   "db": {
     "name": "db",
     "connector": "memory"
-  },
-  "localPG": {
-    "host": "localhost",
-    "port": 5432,
-    "url": "",
-    "database": "lbdb",
-    "password": "lbpass",
-    "name": "localPG",
-    "user": "lbuser",
-    "connector": "postgresql"
   }
 }

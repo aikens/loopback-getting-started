@@ -39,7 +39,7 @@
     "dataSource": null
   },
   "CoffeeShop": {
-    "dataSource": "localPG",
+    "dataSource": "db",
     "public": true
   }
 }
